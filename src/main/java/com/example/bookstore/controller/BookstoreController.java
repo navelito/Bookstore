@@ -109,7 +109,7 @@ public class BookstoreController {
      * Book D never restocks as it's sold out worldwide.
      * If one restock item fails, the entire restock fails.
      * Made the assumption that you can restock even when stock isn't 0.
-     * If the admin user only can restock at 0, then the code on line: XXX can be restored.
+     * If the admin user only can restock at 0, then the code on line: 126 can be restored.
      * Due to "storage issues" there is a restock max limit of 1000 per book.
      */
 
